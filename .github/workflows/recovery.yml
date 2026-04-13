@@ -31,7 +31,7 @@ jobs:
       run: |
         chmod a+x script1.sh
         chmod a+x magiskboot
-        ./script1.sh recovery.img
+        ./script1.sh ls recovery.img
 
     - name: Patch Process-2
       run: |
